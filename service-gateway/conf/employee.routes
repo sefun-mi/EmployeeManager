@@ -1,0 +1,2 @@
+PUT        /attendance/:employeeId                              controllers.EmployeeController.markAttendance(employeeId: String)
+PUT        /:employeeId/:password                            controllers.EmployeeController.changePassword(employeeId: String, password: String)

@@ -1,0 +1,6 @@
+POST      /                                         controllers.AdminController.addAdmin()
+GET       /:adminId/                                controllers.AdminController.getAdmin(adminId: String)
+POST      /employee/                                controllers.AdminController.addEmployee()
+GET       /employee/:employeeId/                    controllers.AdminController.getEmployee(employeeId: String)
+DELETE    /employee/:employeeId/                    controllers.AdminController.removeEmployee(employeeId: String)
+GET    /employee/attendance/:employeeId/              controllers.AdminController.getEmployeeAttendance(employeeId: String)
